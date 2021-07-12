@@ -1,6 +1,8 @@
-Package: drat
-Version: 0.1.8
-Depends: R (>= 3.2.0)
-Imports: utils
-Suggests: git2r, knitr, rmarkdown
-License: GPL (>= 2)
+Package: causalTree
+Version: 0.0
+Depends: R (>= 2.15.0), graphics, stats, grDevices, rpart,
+       rpart.plot, data.table
+Suggests: survival
+License: GPL-2 | GPL-3
+MD5sum: af8bb6c725d2008036765fd91cb9bd0f
+NeedsCompilation: yes
