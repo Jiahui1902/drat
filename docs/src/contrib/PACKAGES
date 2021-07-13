@@ -1,8 +1,19 @@
 Package: causalTree
 Version: 0.0
-Depends: R (>= 2.15.0), graphics, stats, grDevices, rpart,
-       rpart.plot, data.table
+Depends: R (>= 2.15.0), graphics, stats, grDevices, rpart, rpart.plot,
+        data.table
 Suggests: survival
 License: GPL-2 | GPL-3
 MD5sum: af8bb6c725d2008036765fd91cb9bd0f
 NeedsCompilation: yes
+
+Package: htetree
+Version: 0.1.6
+Depends: R (>= 3.6.0)
+Imports: grf, haven, foreign, partykit, data.tree, party, Matching,
+        dplyr, jsonlite, rpart, rpart.plot, shiny, stringr, remotes,
+        data.table
+Suggests: causalTree, optmatch
+License: GPL-2 | GPL-3
+MD5sum: 816d2b44f903300061f93f22709d5592
+NeedsCompilation: no
